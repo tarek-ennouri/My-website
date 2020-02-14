@@ -1,0 +1,39 @@
+.container {
+	width: 750px;
+	margin: 90px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+		width: 700px;
+  }
+}
+@media (max-width: 720px) {
+	.container {
+    	width: 500px;
+  }
+}
+@media (max-width: 540px) {
+	.container {
+    	width: 300px;
+  }
+}
+
+h2{
+  text-align: center;
+  font-size: 30px
+}
+
+a:hover{
+  color: black;
+}
+
+
+#final{
+  color: #8186D5;
+}
+
+#final-link{
+  color: #8186D5;
+}
+
